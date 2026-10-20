@@ -1,0 +1,14 @@
+$kind: http-request
+name: ""
+url: http://localhost:8080/api/v1/hubs/2/products/1/stock?quantity=50
+method: POST
+queryParams:
+  quantity: "50"
+body:
+  type: json
+  content: "{ \"hubProductId\": 1, \"stock\": 50, \r
+
+    \"localHub\": { \"hubId\": 2, \"name\": \"Hub-A\", \"location\": \"Karaikudi\" }, \r
+
+    \"product\": { \"productId\": 1, \"name\": \"Brass Pipe Valve 1/2 inch\", \"stock\": 500, \"price\": 45.0 } }"
+order: 1000
